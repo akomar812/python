@@ -6,5 +6,6 @@ def censor(text, word):
 			text_list[x] = "*" * len(word)
 		x+=1
 	return " ".join(text_list)
-	
-print censor("hey hey hey", "hey")
+
+word=raw_input("What word would you like to censor?")
+print censor("Hey hey mama say the way you move, gon make me sweat, gon make me groove",word)
