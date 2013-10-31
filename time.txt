@@ -1,0 +1,8 @@
+from datetime import datetime
+
+now=datetime.now()
+year=datetime.year()
+month=datetime.month()
+day=datetime.day()
+
+print “Time is ” + str(now.hour) + “:” + str(now.minute) + “:” + str(now.second) + “ on ” + str(month)+”/“+str(day)+”/“+str(year)
