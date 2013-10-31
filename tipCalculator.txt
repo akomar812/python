@@ -2,6 +2,7 @@
 #akomar
 
 def tipCalculator(cost,tax,tip):
+	#total=cost+cost*tax algebra'd below
 	total=cost*(1+tax)
 	return total*tip
 
