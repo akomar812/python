@@ -1,0 +1,9 @@
+#Tip calculator
+#akomar
+
+def tipCalculator(cost,tax,tip):
+	total=cost*(1+tax)
+	return total*tip
+
+tipCalculator(44.5,.0675,.15)
+	
